@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head><h1>Chapter 1: <strong>The Praxis</strong></h1>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            웹사이트 최대한 태그 많이 사용해서 웹사트 만들기 
+        </title>
+
+    </head>
+    <h1>Chapter 1: <strong>The Praxis</strong></h1>
+
+
+    <body>
+<h1>프라나야마</h1>
+<link rel="preload" as="image"
+      imagesrcset="dog-cropped-1x.jpg, dog-cropped-2x.jpg 2x"
+      media="(max-width: 800px)">
+<link rel="preload" as="image"
+      imagesrcset="dog-wide-1x.jpg, dog-wide-2x.jpg 2x"
+      media="(min-width: 801px)">
+
+<!-- ... later, or perhaps inserted dynamically ... -->
+<picture>
+  <source srcset="dog-cropped-1x.jpg, dog-cropped-2x.jpg 2x"
+          media="(max-width: 800px)">
+  <img src="dog-wide-1x.jpg" srcset="dog-wide-2x.jpg 2x"
+       alt="An awesome dog">
+</picture>
+<figure>
+ <figcaption>The castle through the ages: 1423, 1858, and 1999 respectively.</figcaption>
+ <figure>
+  <figcaption>Etching. Anonymous, ca. 1423.</figcaption>
+  <img src="castle1423.jpeg" alt="The castle has one tower, and a tall wall around it.">
+ </figure>
+ <figure>
+  <figcaption>Oil-based paint on canvas. Maria Towle, 1858.</figcaption>
+  <img src="castle1858.jpeg" alt="The castle now has two towers and two walls.">
+ </figure>
+ <figure>
+  <figcaption>Film photograph. Peter Jankle, 1999.</figcaption>
+  <img src="castle1999.jpeg" alt="The castle lies in ruins, the original tower all that remains in one piece.">
+ </figure>
+</figure>
+<footer>
+    <address>
+     For more details, contact
+     <a href="mailto:js@example.com">John Smith</a>.
+    </address>
+    <p><small>© copyright 2038 Example Corp.</small></p>
+   </footer>
+   <h1>Apples</h1>
+ <p>Apples are fruit.</p>
+ <section>
+  <h2>Taste</h2>
+  <p>They taste lovely.</p>
+ </section>
+ <main>
+    <h1>This is a heading level 1</h1>
+    <article headingoffset="1">
+     <h1>This is a heading level 2</h1>
+     <section headingoffset="1">
+      <h1>This is a heading level 3</h1>
+      <dialog headingreset>
+       <h1>This is a heading level 1</h1>
+      </dialog>
+     </section>
+    </article>
+    <h1 aria-level="2">This is a heading level 2</h1>
+   </main>
+   <hgroup id="document-title">
+    <h1>HTML: Living Standard</h1>
+    <p>Last Updated 12 August 2016</p>
+  </hgroup>
+  <p>Some intro to the document.</p>
+  <h2>Table of contents</h2>
+  <ol id=toc>...</ol>
+  <h2>First section</h2>
+  <p>Some intro to the first section.</p>
+  <p>The <dfn id=whatwg>Web Hypertext Application Technology
+    Working Group</dfn> (<abbr
+    title="Web Hypertext Application Technology Working Group">WHATWG</abbr>)
+    is a loose unofficial collaboration of web browser manufacturers and
+    interested parties who wish to develop new technologies designed to
+    allow authors to write and deploy Applications over the World Wide
+    Web.</p>
+    
+    </body>
+</html>
+
